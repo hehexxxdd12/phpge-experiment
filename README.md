@@ -4,7 +4,7 @@
 ## Get Environment
 
 **Requirements**
-1. Docker-cli
+1. Docker CLI
 
 We provide a Docker image to run all experiments. You can pull it from Docker Hub using the following command:
 
@@ -82,6 +82,16 @@ To run the PHP sandbox with 2,420 samples, first move to its working directory:
 
 ```bash
 cd /root/php-sandbox/bin
+```
+
+This working directory contains the following key files:
+
+```
+.
+|-- benchmark_reports   # Original experiment results of RQ2
+|-- output_results      # Original processed results
+|-- php                 # PHP sandbox binary
+|-- scripts             # Helper scripts
 ```
 
 To run the PHP sandbox with 2,420 samples, use the following commands:
